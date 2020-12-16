@@ -2,7 +2,10 @@
 2 урок
 
 Не удалось протестировать , так как не смогла решить проблему с внедрением списка продуктов. 
+
 Подскажите, пожалуйста, решение.
+
+
 Стек трейс такой при запуске:
 WARNING: Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'productRepository': Unsatisfied dependency expressed through method 'setProducts' parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'java.util.List<model.Product>' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
 Exception in thread "main" org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'productRepository': Unsatisfied dependency expressed through method 'setProducts' parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'java.util.List<model.Product>' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
